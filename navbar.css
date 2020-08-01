@@ -1,0 +1,648 @@
+:root{
+    --color1: black;
+}
+
+.header1 .navanc{
+    font-size: 0.65em;
+    font-weight: 600;
+    align-items: center;
+    align-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.outer-main{
+    width: 100%;    
+    height: 60px;
+    position: fixed;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color1);
+    z-index: 99;
+font-family: Arial, Helvetica, sans-serif;
+}
+/* .al-nav-right{
+    width: 100%;
+    /* align-content: flex-end; */
+
+
+.hambrger{
+    position: fixed;
+    height:60px;
+    margin-left: 95%;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    z-index: 99;
+    float: right;
+    }
+
+.ham-button{
+    margin-top: 53px;
+    width : 100%;
+    float: right;
+}
+
+.mainav{
+    top:0;
+    height: 60px;
+    position: fixed;
+    align-content: center;
+    width: 95%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    transition: all 500ms ease-out;
+    float: left;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 99;
+}
+
+.header1 .navanc:link{
+    color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.header1 .navanc:visited{
+    color: white;
+}
+.header1 .navanc:hover{
+    color: whitesmoke;
+}
+.left div .navanc:link{
+    color: white;
+    font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+}
+.left div .navanc:visited{
+    color: white;
+}
+.left div .navanc:hover{
+    color: whitesmoke;
+}
+.right .navanc:link {
+        color: white;
+    font-size: larger;
+    text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+.right .navanc:visited {
+    color: whitesmoke;
+  }
+.right .navanc:hover {
+    color: whitesmoke;
+  } 
+
+.header1{
+    float: left;
+    justify-content: center;
+    padding-left: 1%;
+    width: 18%;
+    height:100%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    /* margin-top: 1rem; */
+    }
+.sub-na{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    align-items: center;
+
+}
+.left{
+    float: left;
+    justify-content: space-evenly;
+    /* font-size: 1rem; */
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.space{
+    width: 50% ;
+}
+.right{
+    float: right;
+    justify-content:space-evenly;
+    /* font-size: 1000px; */
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 1.5%;
+    /* align-content: flex-end; */
+    /* padding-left: 50rem; */
+}
+
+
+
+.prod-hover{
+    position: fixed;
+    height:60px;
+    background-color: black;
+    width: 100%;
+    /* margin:0.75%; */
+    color: white;
+    z-index: 1;
+    transition: width 2s;
+}
+
+@media (min-width: 1281px) and (max-width: 1366px) {
+  
+     
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .header1 .navanc{
+        font-size: 0.6em;
+        font-weight: 700;
+    }
+    
+    .outer-main{
+        width: 100%;    
+        height: 5.5vh;
+        background-color: var(--color1);
+        z-index: 99;
+    }
+    .header1{
+        float: left;
+        padding-left: 3%;
+        width: 25%;
+        margin-top: -0.8vh ;
+        }
+
+    
+    .hambrger{
+        position: fixed;
+        height:5.5vh;
+        margin-left: 94%;
+        padding: 4px;
+        z-index: 99;
+        float: right;
+        /* align-content: center; */
+        }
+    
+    .ham-button{
+        margin-top: 3.55vh;
+        width : 100%;
+        float: right;
+    }
+    
+    .mainav{
+        top:0;
+        height: 5.5vh;
+        position: fixed;
+        align-content: center;
+        width: 95%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        transition: all 500ms ease-out;
+        float: left;
+        z-index: 99;
+    }
+
+    .sub-na{
+        height: 100%;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        align-items: center;
+    
+    }
+    .left{
+        float: left;
+        justify-content: space-evenly;
+        font-size:0.9em;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+    }
+    .space{
+        width: 05% ;
+    }
+    .right{
+        float: right;
+        justify-content:space-evenly;
+        font-size: 0.95em;
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        padding-right: 5%;
+        /* align-content: flex-end; */
+        /* padding-left: 50rem; */
+    }
+     
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .header1 .navanc{
+        font-size: 0.55em;
+        font-weight: 700;
+    }
+    
+    .outer-main{
+        width: 100%;    
+        height: 5vh;
+        background-color: var(--color1);
+        z-index: 99;
+    }
+    .header1{
+        float: left;
+        padding-left: 3%;
+        width: 25%;
+        margin-top: -1vh ;
+        }
+
+    
+    .hambrger{
+        position: fixed;
+        height:5vh;
+        margin-left: 93%;
+        padding: 0.5px;
+        z-index: 99;
+        float: right;
+        }
+    
+    .ham-button{
+        margin-top: 3.5vh;
+        width : 100%;
+        float: right;
+    }
+    
+    .mainav{
+        top:0;
+        height: 5vh;
+        position: fixed;
+        align-content: center;
+        width: 95%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        transition: all 500ms ease-out;
+        float: left;
+        z-index: 99;
+    }
+
+    .sub-na{
+        height: 100%;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        align-items: center;
+    
+    }
+    .left{
+        float: left;
+        justify-content: space-evenly;
+        font-size:0.8em;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+    }
+    .space{
+        width: 05% ;
+    }
+    .right{
+        float: right;
+        justify-content:space-evenly;
+        font-size: 0.9em;
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        padding-right: 5%;
+        /* align-content: flex-end; */
+        /* padding-left: 50rem; */
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .header1 .navanc{
+        font-size: 0.55em;
+        font-weight: 700;
+    }
+    
+    .outer-main{
+        width: 100%;    
+        height: 5vh;
+        background-color: var(--color1);
+        z-index: 99;
+    }
+    .header1{
+        float: left;
+        padding-left: 3%;
+        width: 25%;
+        margin-top: -1vh ;
+        }
+
+    
+    .hambrger{
+        position: fixed;
+        height:5vh;
+        margin-left: 93%;
+        padding: 0.5px;
+        z-index: 99;
+        float: right;
+        }
+    
+    .ham-button{
+        margin-top: 3.5vh;
+        width : 100%;
+        float: right;
+    }
+    
+    .mainav{
+        top:0;
+        height: 5vh;
+        position: fixed;
+        align-content: center;
+        width: 95%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        transition: all 500ms ease-out;
+        float: left;
+        z-index: 99;
+    }
+
+    .sub-na{
+        height: 100%;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        align-items: center;
+    
+    }
+    .left{
+        float: left;
+        justify-content: space-evenly;
+        font-size:0.8em;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+    }
+    .space{
+        width: 05% ;
+    }
+    .right{
+        float: right;
+        justify-content:space-evenly;
+        font-size: 0.9em;
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        padding-right: 5%;
+        /* align-content: flex-end; */
+        /* padding-left: 50rem; */
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .header1 .navanc{
+        font-size: 0.35em;
+        font-weight: 700;
+    }
+    
+    .outer-main{
+        width: 100%;    
+        height: 4.5vh;
+        background-color: var(--color1);
+        z-index: 99;
+    }
+    .header1{
+        float: left;
+        padding-left: 1%;
+        width: 25%;
+        margin-top: -1.5vh ;
+        }
+
+    
+    .hambrger{
+        position: fixed;
+        height:4vh;
+        margin-left: 93%;
+        padding: 0.5px;
+        z-index: 99;
+        float: right;
+        }
+    
+    .ham-button{
+        margin-top: 3vh;
+        width : 100%;
+        float: right;
+    }
+    
+    .mainav{
+        top:0;
+        height: 40px;
+        position: fixed;
+        align-content: center;
+        width: 95%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        transition: all 500ms ease-out;
+        float: left;
+        z-index: 99;
+    }
+
+    .sub-na{
+        height: 100%;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        align-items: center;
+    
+    }
+    .left{
+        float: left;
+        justify-content: space-evenly;
+        font-size:0.65em;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+    }
+    .space{
+        width: 05% ;
+    }
+    .right{
+        float: right;
+        justify-content:space-evenly;
+        font-size: 0.8em;
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        padding-right: 5%;
+        /* align-content: flex-end; */
+        /* padding-left: 50rem; */
+    }
+     
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .header1 .navanc{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .outer-main{
+        width: 100%;    
+        height: 4.5vh;
+        background-color: var(--color1);
+        z-index: 99;
+    }
+    .header1{
+        float: left;
+        padding-left: 1%;
+        width: 50%;
+        margin-top: -1.2vh ;
+        }
+
+    
+    .hambrger{
+        position: fixed;
+        height:4.5vh;
+        margin-left: 85%;
+        padding: 0.5px;
+        z-index: 99;
+        float: right;
+        }
+    
+    .ham-button{
+        margin-top: 3.5vh;
+        width : 100%;
+        float: right;
+    }
+    
+    .mainav{
+        top:0;
+        height: 40px;
+        position: fixed;
+        align-content: center;
+        width: 95%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        transition: all 500ms ease-out;
+        float: left;
+        z-index: 99;
+    }
+    
+    .header1 .navanc:link{
+        color: white;
+    }
+    .header1 .navanc:visited{
+        color: white;
+    }
+    .header1 .navanc:hover{
+        color: whitesmoke;
+    }
+    .left div .navanc:link{
+        color: white;
+        font-size: larger;
+    }
+    .left div .navanc:visited{
+        color: white;
+    }
+    .left div .navanc:hover{
+        color: whitesmoke;
+    }
+    .right .navanc:link {
+            color: white;
+        font-size: larger;
+        text-decoration: none;
+        }
+    .right .navanc:visited {
+        color: whitesmoke;
+      }
+    .right .navanc:hover {
+        color: whitesmoke;
+      } 
+    
+    
+    .sub-na{
+        height: 100%;
+        width: 80%;
+        display: none;
+        flex-direction: row;
+        font-weight: bold;
+        align-items: center;
+    
+    }
+    .left{
+        float: left;
+        justify-content: space-evenly;
+        /* font-size: 1rem; */
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+    }
+    .space{
+        width: 50% ;
+    }
+    .right{
+        float: right;
+        justify-content:space-evenly;
+        /* font-size: 1000px; */
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        padding-right: 1.5%;
+        /* align-content: flex-end; */
+        /* padding-left: 50rem; */
+    }
+    
+    
+    
+    .prod-hover{
+        position: fixed;
+        height:60px;
+        background-color: black;
+        width: 100%;
+        /* margin:0.75%; */
+        color: white;
+        z-index: 1;
+        transition: width 2s;
+    }
+    
+  }

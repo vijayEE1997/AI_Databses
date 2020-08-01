@@ -1,0 +1,488 @@
+.pd-outer h1{
+    color: black;
+    font-size:1.75em;
+}
+.pd-subouter a:link{
+    color: black;
+    font-size: 0.75em;
+}.pd-subouter a:visited{
+    color: black;
+    font-size: 0.75em;
+}.pd-subouter a:visited:hover{
+    color: grey;
+    font-size: 0.75em;
+}.pd-subouter a:hover{
+    color: grey;
+    font-size: 0.75em;
+}
+
+.pd-outer{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    display: flex;
+    height: 25vh;
+    flex-direction: column;
+    border: 1px ridge;
+    background-color: white;
+    padding:1.0%;
+    margin-top: 60px;
+    transition: width 0s,height 02s,transform 0.75s;
+    z-index: 99 ;
+    border: groove;
+    border-color:grey ;
+    border-width: thin;
+
+}
+
+.pd-headers{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-decoration-color: black;
+}
+.pd-lh1{
+    width: 86%;
+    border: 1px solid black;
+    margin-left: -0.001%;
+}
+.pd-lh2{
+    width: 90%;
+    margin-left: -0.001%;
+    border: 1px solid black;
+}
+.pd-lh3{
+    margin-left: 0.1%;
+    width: 82%;
+    border: 1px solid black;
+    margin-right: 10%;
+}
+.pd-ph1{
+    padding-left: 3.5%;
+    width:42.5%;
+}
+.pd-ph2{
+    width:35%;
+}
+.pd-ph3{
+    padding-left: 3.5%;
+    width:30%;
+}
+.pd-subouter{
+    display: flex;
+    flex-direction: row;
+    height: 75%;    
+    width: 100%;
+    justify-content: stretch;
+}
+.pd-EDB{
+    width: 37%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.pd-subp1{
+    width: 50%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+.pd-subp2{
+    width: 50%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+.pd-ODB{
+    width: 30%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: flex-start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    font-size: 1.50rem;
+}
+.pd-FDB{
+    width: 35%;
+    text-align: center;
+    align-items: flex-start;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    font-size: 1.50rem;
+}
+.pd-Others1{
+    width: 45%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: flex-start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    font-size: 1.50rem;
+    color: black;
+}
+.pd-Others2{
+    width: 55%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: flex-start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    font-size: 1.50rem;
+}
+
+
+@media (min-width: 1281px) and (max-width: 1440px)  {
+    
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .pd-outer h1{
+        font-size:01.25em;
+    }
+    .pd-subouter a:link{
+        font-size: 0.6em;
+    }
+    .pd-outer{
+        width: 100%;
+        height: 20vh;
+        padding:1.0%;
+        padding-top: 2%;
+        margin-top: 40px;
+    
+    }
+    .pd-headers{
+        padding-top: 0.25vh;
+        height: 1.5vh;
+    }
+    .pd-lh1{
+        width: 86%;
+        margin-left: -0.001%;
+        margin-top: 0.5%;
+    }
+    .pd-lh2{
+        width: 90%;
+        margin-left: -0.001%;
+        margin-top: 0.5%;
+    }
+    .pd-lh3{
+        margin-left: 0.1%;
+        width: 87%;
+        margin-right: 10%;
+        margin-top: 0.5%;
+    }
+    .pd-ph1{
+        padding-left: 3.5%;
+        width:42.5%;
+    }
+    .pd-ph2{
+        width:35%;
+    }
+    .pd-ph3{
+        padding-left: 3.5%;
+        width:30%;
+    }
+    .pd-subouter{
+        height: 75%;    
+        width: 100%;
+        padding-top: 1%;
+    }
+    .pd-EDB{
+        width: 37%;
+        text-align: left;
+    }
+    .pd-subp1{
+        width: 50%;
+        text-align: left;
+        padding-left: 10%;
+    }
+    .pd-subp2{
+        width: 50%;
+        text-align: left;
+        padding-left: 5%;
+        }
+    .pd-ODB{
+        width: 30%;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .pd-FDB{
+        width: 35%;
+    }
+    .pd-Others1{
+        width: 42.5%;
+        padding-left: 0%;
+    }
+    .pd-Others2{
+        width: 57.5%;
+        text-align: left;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    .pd-outer h1{
+        font-size:01em;
+    }
+    .pd-subouter a:link{
+        font-size: 0.5em;
+    }
+    .pd-outer{
+        width: 100%;
+        height: 20vh;
+        padding:1.0%;
+        padding-top: 2%;
+        margin-top: 40px;
+    
+    }
+    .pd-headers{
+        padding-top: 0.25vh;
+        height: 1.5vh;
+    }
+    .pd-lh1{
+        width: 86%;
+        margin-left: -0.001%;
+        margin-top: 0.5%;
+    }
+    .pd-lh2{
+        width: 90%;
+        margin-left: -0.001%;
+        margin-top: 0.5%;
+    }
+    .pd-lh3{
+        margin-left: 0.1%;
+        width: 87%;
+        margin-right: 10%;
+        margin-top: 0.5%;
+    }
+    .pd-ph1{
+        padding-left: 3.5%;
+        width:42.5%;
+    }
+    .pd-ph2{
+        width:35%;
+    }
+    .pd-ph3{
+        padding-left: 3.5%;
+        width:30%;
+    }
+    .pd-subouter{
+        height: 75%;    
+        width: 100%;
+        padding-top: 1%;
+    }
+    .pd-EDB{
+        width: 37%;
+        text-align: left;
+    }
+    .pd-subp1{
+        width: 50%;
+        text-align: left;
+        padding-left: 10%;
+    }
+    .pd-subp2{
+        width: 50%;
+        text-align: left;
+        padding-left: 5%;
+        }
+    .pd-ODB{
+        width: 30%;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .pd-FDB{
+        width: 35%;
+    }
+    .pd-Others1{
+        width: 42.5%;
+        padding-left: 0%;
+    }
+    .pd-Others2{
+        width: 57.5%;
+        text-align: left;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .pd-outer h1{
+        font-size:01em;
+    }
+    .pd-subouter a:link{
+        font-size: 0.5em;
+    }
+    .pd-outer{
+        width: 100%;
+        height: 20vh;
+        padding:1.0%;
+        padding-top: 2%;
+        margin-top: 40px;
+    
+    }
+    .pd-headers{
+        padding-top: 0.25vh;
+        height: 1.5vh;
+    }
+    .pd-lh1{
+        width: 86%;
+        margin-left: -0.001%;
+        margin-top: 0.5%;
+    }
+    .pd-lh2{
+        width: 90%;
+        margin-left: -0.001%;
+        margin-top: 0.5%;
+    }
+    .pd-lh3{
+        margin-left: 0.1%;
+        width: 87%;
+        margin-right: 10%;
+        margin-top: 0.5%;
+    }
+    .pd-ph1{
+        padding-left: 3.5%;
+        width:42.5%;
+    }
+    .pd-ph2{
+        width:35%;
+    }
+    .pd-ph3{
+        padding-left: 3.5%;
+        width:30%;
+    }
+    .pd-subouter{
+        height: 75%;    
+        width: 100%;
+        padding-top: 1%;
+    }
+    .pd-EDB{
+        width: 37%;
+        text-align: left;
+    }
+    .pd-subp1{
+        width: 50%;
+        text-align: left;
+        padding-left: 10%;
+    }
+    .pd-subp2{
+        width: 50%;
+        text-align: left;
+        padding-left: 5%;
+        }
+    .pd-ODB{
+        width: 30%;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .pd-FDB{
+        width: 35%;
+    }
+    .pd-Others1{
+        width: 42.5%;
+        padding-left: 0%;
+    }
+    .pd-Others2{
+        width: 57.5%;
+        text-align: left;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .pd-outer h1{
+        font-size:0.8em;
+    }
+    .pd-subouter a:link{
+        font-size: 0.4em;
+    }
+    .pd-outer{
+        width: 100%;
+        height: 18vh;
+        padding:1.0%;
+        margin-top: 40px;
+    
+    }
+    .pd-headers{
+        padding-top: 0.25vh;
+        height: 1.5vh;
+    }
+    .pd-lh1{
+        width: 86%;
+        margin-left: -0.001%;
+        margin-top: 0.5%;
+    }
+    .pd-lh2{
+        width: 90%;
+        margin-left: -0.001%;
+        margin-top: 0.5%;
+    }
+    .pd-lh3{
+        margin-left: 0.1%;
+        width: 87%;
+        margin-right: 10%;
+        margin-top: 0.5%;
+    }
+    .pd-ph1{
+        padding-left: 3.5%;
+        width:42.5%;
+    }
+    .pd-ph2{
+        width:35%;
+    }
+    .pd-ph3{
+        padding-left: 3.5%;
+        width:30%;
+    }
+    .pd-subouter{
+        height: 75%;    
+        width: 100%;
+    }
+    .pd-EDB{
+        width: 37%;
+        text-align: left;
+    }
+    .pd-subp1{
+        width: 60%;
+        text-align: left;
+        padding-left: 10%;
+    }
+    .pd-subp2{
+        width: 40%;
+        text-align: left;
+        padding-left: 5%;
+        }
+    .pd-ODB{
+        width: 30%;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .pd-FDB{
+        width: 35%;
+    }
+    .pd-Others1{
+        width: 42.5%;
+        padding-left: 0%;
+    }
+    .pd-Others2{
+        width: 57.5%;
+        text-align: left;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .pd-outer{
+        display: none;
+    }
+  }
